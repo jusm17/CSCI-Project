@@ -1,0 +1,72 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+   <head>
+   <META http-equiv="Content-Type" content="text/html;charset=ISO- 8859-1">
+       <meta charset="utf-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <title> Julian Smith </title>
+       <meta name="description" content="An interactive getting started guide for Brackets.">
+       <link rel="stylesheet" href="main.css">
+   <style> body {background-color: skyblue;}
+   p{color: Black;font-family:helvetica; text-indent: 50px;}
+   li{color: Black;font-family:helvetica;}
+   tr{color: Black;font-family: helvetica;}
+   td{color: Black;font-family: helvetica;}
+   h1{color: skyblue; text-align: center;font-size: 250%}
+   h2{color: Black; text-align: left; font-size: 200%}
+   h3{color: black; text-align: left; font-size: 75%}
+   th, td {padding: 20px;}
+   button {font: bold 11px;background-color: white;color: skyblue;border-top: 1.5px solid #CCCCCC;border-right: 1.5px solid #333333;border-bottom: 1.5px solid #333333;border-left: 1.5px solid #CCCCCC;}
+   .pointer {cursor: pointer;}
+   UL {list-style: upper-roman inside}
+
+   </style>
+   </head>
+   <body>
+       <h1> Julian M. Smith </h1> 
+  <h2> Biography </h2>
+       <p> Julian Smith was born on April 7th, 1999 at Lenox Hill Hospital in New York City. He moved with his family to Atlanta, GA when he was a few months old. He and his brother attended The Westminster Schools from kindergarten through high school. After graduating in 2017, he attended the University of North Georgia. He then transferred to the University of Georgia and is currently a sophmore majoring in Finance. </p>
+       <h2>Immediate Family</h2>
+       <ul>
+           <li>Mother: Mary Ellen Macksoud </li>
+           <li>Father: David Ross Smith</li>
+           <li>Brother: Aaron Carlyle Smith</li>
+       </ul>
+   <h2>My Favorite Books</h2>
+       <table> <tr> <td>
+   <img src=“Atlas Shrugged.png" alt=“Atlas Shrugged” 
+        style="width:250px;height:250px"></td>
+   </tr> 
+</table>
+<ul>
+<li>Atlas Shrugged-Ayn Rand</li>
+<li>East of Eden-John Steinbeck</li>
+<li>Life on the Mississippi- Mark Twain</li>
+</ul>
+   <p class="pointer"> <b>What is your favorite?</b></p>
+<table>
+<tr>
+<td><select>
+<option value=“Atlas Shrugged”> Atlas Shrugged</option>
+<option value=“East of Eden“> East of Eden</option>
+<option value=“Life on the Mississippi”> Life on the Mississippi</option>
+</select></td>
+</tr>
+   </table>
+<p> My favorite book is Atlas Shrugged by Ayn Rand. The novel tells the story of a dystopian United States in which the economy is increasingly regulated by laws. Titans of industry who believe in honest trade began to disappear and the world begins to crumble as these titans began to leave. The book teaches the importance of reason, individualism and maintaining capitalism. It explains “the role of man’s mind in existence.” </p>
+<p>Both <i>East of Eden</i> and <i>Life on the Mississippi</i> are classic American novels that have been praised for their ability to effect every generation that has read them. For more classic novels, click <a href="https://www.theguardian.com/books/2003/oct/12/features.fiction" target="_blank">here</a>.</p>
+    <h2> Hobbies </h2>
+<table>  
+<tr>
+   <td>Tennis <td> Weight Lifting</td><td> Fishing</td><td>Reading</td>
+<tr>
+   <td> Skiing</td><td>Watching TV</td><td> Playing Video Games</td><td>Chess</td>
+   </tr> 
+</table>
+<footer>
+<h3> *I was in the National Honors Society in High School.</h3>
+</footer>
+<button type="button" onclick="alert('Thanks for reading!')">Click Me!</button>
+</body>
+</html>
